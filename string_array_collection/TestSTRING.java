@@ -10,8 +10,13 @@ class TestSTRING
 	String s = "apple and oranges";
 	String ss = "APPLE AND ORANGES";
 
-	System.out.println(s.equals(ss));
-	System.out.println(s.equalsIgnoreCase(ss));
+	System.out.println(s.equals(ss));//false
+	System.out.println(s.equalsIgnoreCase(ss));//true
+	System.out.println(s.indexOf("nd"));  //7
+	System.out.println(s.indexOf("nd",9));  //-1
+	
+
+
 
 	}
 }
