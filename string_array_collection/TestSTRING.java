@@ -14,6 +14,9 @@ class TestSTRING
 	System.out.println(s.equalsIgnoreCase(ss));//true
 	System.out.println(s.indexOf("nd"));  //7
 	System.out.println(s.indexOf("nd",9));  //-1
+
+	s = s.replaceAll("oranges", "guava");
+	System.out.println(s);
 	
 
 
