@@ -1,3 +1,4 @@
+import java.util.Arrays;
 class terse{
 
 	public static void main (String[] args)
@@ -8,6 +9,9 @@ class terse{
 		{
 			//mandatory to put brackets here
 		}
+
+		int arr[] = {1,2,34,55,5};
+		Arrays.stream(arr).forEach(e->System.out.print(e + " ")); //1 2 34 55 5
 		
 	}
 }
