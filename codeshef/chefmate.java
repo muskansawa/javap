@@ -3,7 +3,7 @@ class chefmate
 {
 	public static void main(String[] args)
 	{
-		int T,X,Y,K,N;
+		int T,X,Y,K,N;//ss
 
 		Scanner sc = new Scanner(System.in);
 		T = sc.nextInt();
@@ -41,7 +41,7 @@ class chefmate
 		 	}
 
 		 	if(c== 999)
-		 		System.out.println("UnLuckyChef");
+		 		System.out.println("UnluckyChef");
 		 	else 
 		 		System.out.println("LuckyChef");
 		 }//close of a test case
