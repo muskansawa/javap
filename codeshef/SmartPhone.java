@@ -5,7 +5,7 @@ class SmartPhone
 	{
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
-		long ar[] = new long[n];
+		long ar[] = new long[n];//k
 
 		for(int i =0;i<n;i++)
 		{
