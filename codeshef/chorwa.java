@@ -20,7 +20,7 @@ class chorwa
 			}
 			 Arrays.sort(police);
 			 int th = 100;
-			 if(police[0]>=(x*y))
+			 if(police[0]>(x*y))
 			 {
 			 	th =th - (x*y)-1;
 			 }
@@ -28,7 +28,7 @@ class chorwa
 			 	th = th- police[0];
 			 for(int j =0;j<M-1;j++)
 			{
-				if(police[j+1] - police[j]>=(2*x*y))
+				if(police[j+1] - police[j]>(2*x*y))
 				{
 
 					th = th - (2*x*y)-1;

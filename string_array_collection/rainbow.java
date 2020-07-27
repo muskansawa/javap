@@ -39,6 +39,12 @@ class rainbow
 					break;
 				}
 
+				if(j!= mid&&  ar[j]>ar[j+1]  )
+					{
+					rainarr= false;
+					break;
+				}
+
 				if(ar[0]!=1)
 					{
 					rainarr= false;
