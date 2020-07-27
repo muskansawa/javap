@@ -31,7 +31,7 @@ class chorwa
 				if(police[j+1] - police[j]>=(2*x*y))
 				{
 
-					th = th - (2*x*y);
+					th = th - (2*x*y)-1;
 
 				} 
 				else{
@@ -40,7 +40,7 @@ class chorwa
 			}
 			if((100-police[M-1])>=(x*y))
 			 {
-			 	th =th - (x*y)-1;
+			 	th =th - (x*y);
 			 }
 			 else
 			 {
